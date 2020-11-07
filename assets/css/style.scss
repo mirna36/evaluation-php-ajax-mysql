@@ -1,0 +1,89 @@
+                $couleur-base: #00838f;
+                * {
+                    box-sizing: border-box;
+                }
+                
+                body {
+                    background-color: #e3f2fd;
+                }
+                
+                .navbar {
+                    background-color: $couleur-base;
+                    .navbar-brand {
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
+                
+                .titreGame {
+                    background-color: $couleur-base;
+                    text-align: center;
+                    color: white;
+                    font-size: x-large;
+                    font-weight: bolder;
+                    padding: 20px;
+                    margin-left: 50px;
+                    margin-right: 50px;
+                }
+                
+                .userActif {
+                    margin-left: 50px;
+                    margin-top: 50px;
+                }
+                
+                .container-jeu {
+                    margin-top: 50px;
+                    text-align: center;
+                    h3 {
+                        color: #26c6da;
+                    }
+                    .jeu {
+                        font-size: x-large;
+                    }
+                }
+                
+                .form-reponse {
+                    width: 40%;
+                    text-align: center;
+                    margin: 1rem auto;
+                }
+                
+                .container {
+                    display: flex;
+                    .photo-card {
+                        flex-direction: row;
+                        .photo {
+                            width: 500px;
+                            height: 500px;
+                        }
+                    }
+                    .form-card {
+                        flex-direction: row;
+                        width: 40%;
+                        .titreForm {
+                            color: #00838f;
+                            font-size: 10px;
+                            text-align: center;
+                        }
+                        .erreur {
+                            background-color: #fce4ec;
+                            margin-top: 5px;
+                        }
+                    }
+                    .formLogin-card {
+                        background-color: white;
+                        text-align: center;
+                        margin-top: 20px;
+                        .lock-open {
+                            font-size: 160px;
+                            color: $couleur-base;
+                        }
+                        .erreurLogin {
+                            background-color: #f7c7d7;
+                            color: white;
+                            font-weight: bold;
+                            margin-left: 25px;
+                            margin-right: 25px;
+                        }
+                    }
+                }
