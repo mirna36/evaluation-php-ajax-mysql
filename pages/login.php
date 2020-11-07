@@ -117,8 +117,6 @@ if (!empty($pseudo) && !empty($mdp)) {
   </div>
 
 
-
-
   <!-- Optional JavaScript -->
   
 </body>

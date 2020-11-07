@@ -21,7 +21,6 @@
 session_start();
 
 
-
 $pseudo = "";
 $mdp = "";
 $mdp2 = "";
@@ -155,7 +154,7 @@ if (isset($_POST['valider'])) {
     </div>
 
     <!-- Optional JavaScript -->
-    
+
 </body>
 
 </html>

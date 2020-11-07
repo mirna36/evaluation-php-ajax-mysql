@@ -22,16 +22,12 @@ session_start();
 $user = $_SESSION['users'];
 
 
-
 //Je verifie que ne la variable user contient bien un pseudo 
 //si pas de pseudo je renvois à la page login et j'arrête la session
 if (empty($user)) {
   header('Location:login.php');
   exit();
 }
-
-
-
 
 //Génération aléatoire des nombres
 $nombre1 = random_int(1, 100);
@@ -60,8 +56,6 @@ if (isset($_GET['valider'])) {
   $reponse = filter_input(INPUT_GET, 'reponse', FILTER_VALIDATE_INT);
   $statut = filter_input(INPUT_GET, 'statut', FILTER_VALIDATE_INT);
   $pseudo = trim($_GET['user']);
-
-
 
   //Je verifie que l'utilisateur a bien donné une réponse
   if (empty($reponse)) {
