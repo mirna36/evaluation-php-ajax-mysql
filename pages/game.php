@@ -12,9 +12,8 @@
   <title>EVALUATION-CRUD-PHP-AJAX-MSQL</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
+
 <?php
-
-
 
 //Je récupère la session et le nom de l'utilisateur en session 
 //et je mets la variable de session users dans une variable

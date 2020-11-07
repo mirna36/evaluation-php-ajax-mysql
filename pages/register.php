@@ -72,7 +72,6 @@ if (isset($_POST['valider'])) {
     }
 }
 
-
 ?>
 
 <body>
